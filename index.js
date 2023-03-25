@@ -11,8 +11,8 @@ title.classList.add('news__title')
 title.textContent = "Aktuální novinky";
 
 
-const zprava = document.querySelector('#zprava1');
-zprava.classList.add('post--main');
+const zprava1 = document.querySelector('#zprava1');
+zprava1.classList.add('post--main');
 
 const imgLastPost = document.querySelector('#zprava3 img');
 imgLastPost.src = 'img/zprava3-novy.jpg'
